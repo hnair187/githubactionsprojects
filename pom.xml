@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 http://maven.apache.org/xsd/settings-1.2.0.xsd" xmlns="http://maven.apache.org/SETTINGS/1.2.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xmlns="http://maven.apache.org/POM/1.2.0" xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 http://maven.apache.org/xsd/settings-1.2.0.xsd" xmlns="http://maven.apache.org/SETTINGS/1.2.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>1.2.0</modelVersion>
 
   <groupId>com.test</groupId>
   <artifactId>HelloWorldMaven</artifactId>
   <version>=1.0.1-RELEASE</version>
   <packaging>jar</packaging>
  
+    
   <name>HelloWorldMaven</name>
   <url>http://maven.apache.org</url>
  
+    
+    
+    
  <distributionManagement>
  <repository>
     <id>central</id>
@@ -23,7 +28,8 @@
     <!-- CHANGE HERE by your team nexus server -->
     <url>>https://hnair187.jfrog.io/artifactory/default-maven-local</url>
   </snapshotRepository>
- </distributionManagement>  
+ </distributionManagement>
+    
 
    <dependencies>
      <dependency>
@@ -33,4 +39,4 @@
        <scope>test</scope>
       </dependency>
      </dependencies>
-  </settings>
+  </project>
