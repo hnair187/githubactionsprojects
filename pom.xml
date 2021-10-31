@@ -17,18 +17,7 @@
     <maven.compiler.target>1.6</maven.compiler.target>
  </properties>
  
- <servers>
-    <server>
-      <username>hiral_nair@outlook.com</username>
-      <password>AP4zeCCh1ZtFXAzZUmReB67buMG</password>
-      <id>central</id>
-    </server>
-    <server>
-      <username>hiral_nair@outlook.com</username>
-      <password>AP4zeCCh1ZtFXAzZUmReB67buMG</password>
-      <id>snapshots</id>
-    </server>
- </servers> 
+ 
     
     
     
